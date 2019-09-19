@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mental Mentality</title>
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		body.img {
+			background-image: url("contact.png");
+			background-position: center;
+  			background-repeat: no-repeat;
+  			background-size: cover;
+		}
+		div.contact_form {
+			position: relative;
+			bottom: 175px;
+			margin: 9px 20px;
+		}
+		input[type=content], select {
+			font-size: 14px;
+  			width: 25%;
+  			padding: 12px 20px;
+  			margin: 8px 6px;
+  			border: 1px solid #7a7a7a;
+  			border-radius: 4px;
+  			box-sizing: border-box;
+		}
+		input[type=submit], select {
+			font-size: 30px;
+			font-weight: bold;
+			position: relative;
+			bottom: 10px;
+			color: #FFFFFF;
+			background-color: #363636;
+  			border: none;
+  			width: 60%;
+  			border-radius: 4px;
+  			cursor: pointer; 
+		}
+		input[type=submit]:hover {
+			background-color: #000000; 
+		}
+		input[type=text], select, textarea {
+  			width: 65%;
+  			position: absolute;
+  			left: 420px;
+  			bottom: 154px;
+  			border: 1px solid #7a7a7a;
+  			border-radius: 4px;
+		}
+		label {
+			font-family: Verdana;
+			font-size: 20px;
+		}
+	</style>
+</head>
+
+<body class="img">
+	<div class="center">
+		<a href="index.html">Home</a>
+		<a href="services.html">Services</a> 
+		<a href="contact.html">Contact</a>
+	</div>
+	<h1 class="main">Contact&nbsp Us</h1>
+	<div class="info" style="color:#000000;">More Info</div>
+	<div class="scroll" style="color:#000000;">Scroll</div>
+	<h1 class="main"><u>Reach&nbspOut</u></h1>
+
+	<div class="contact_form">
+		<label>&nbspName</label><br> 
+    	<input type="content" name="Name" placeholder="Enter your name.."><br>
+    	<label>&nbspEmail</label><br> 
+    	<input type="content" name="Email" placeholder="Enter your email.."><br> 
+    	<label>&nbspPhone</label><br>
+    	<input type="content" name="Phone" placeholder="Enter your phone number.."><br><br> 
+		<label>&nbspJoin E-list?</label><br>&nbsp
+		<input type= "radio" name="join"
+			value='yes'>
+		<label style="font-size: 15px">Yes &nbsp</label>
+		<input type= "radio" name="join"
+			value='no'>
+		<label style="font-size: 15px">No</label><br><br>
+		<label style="position: relative; left: 425px; bottom: 329px;">Questions/Comments/Concerns</label><br> 
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+		<input type="submit" value="Submit" style="position: relative; left: 240px;">
+	</div>
+
+</body>
+</html>
+
